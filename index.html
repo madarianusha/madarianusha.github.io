@@ -1,35 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anusha Madari Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
 
-    <div class="container">
-        <h1>Anusha Madari</h1>
-        <h2>Cybersecurity & CIS Graduate Student</h2>
+<header class="header">
+    <a href="#" class="logo">Anusha</a>
+
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+    </nav>
+</header>
+
+<section class="home">
+
+    <div class="home-content">
+        <h1>Hi, I'm <span>Anusha Madari</span></h1>
+
+        <h3>Cybersecurity & CIS Graduate Student</h3>
 
         <p>
             Passionate about Cybersecurity, AI Security,
             Networking, Machine Learning, and Research.
         </p>
 
-        <h3>Skills</h3>
-        <ul>
-            <li>Python</li>
-            <li>Wireshark</li>
-            <li>Networking</li>
-            <li>Machine Learning</li>
-            <li>Linux</li>
-        </ul>
+        <div class="btn-box">
+            <a href="#projects">Projects</a>
+            <a href="#">Resume</a>
+        </div>
 
-        <h3>Projects</h3>
-        <p>Heart Disease Prediction System</p>
-        <p>Plant Disease Detection using CNN</p>
-        <p>RSA Encryption Project</p>
+        <div class="social-icons">
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-gmail'></i></a>
+        </div>
+    </div>
+
+    <div class="home-image">
+        <img src="images/profile.jpg" alt="">
+    </div>
+
+</section>
+
+<section class="about" id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+        Master's student in Computer Information Systems
+        & Cyber Security at Auburn University at Montgomery.
+        Interested in AI-powered cybersecurity, networking,
+        cryptography, and research.
+    </p>
+
+</section>
+
+<section class="projects" id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="project-container">
+
+        <div class="project-box">
+            <h3>Heart Disease Prediction</h3>
+            <p>Machine learning system to predict heart disease.</p>
+        </div>
+
+        <div class="project-box">
+            <h3>Plant Disease Detection</h3>
+            <p>CNN model for detecting plant diseases.</p>
+        </div>
+
+        <div class="project-box">
+            <h3>RSA Encryption</h3>
+            <p>Cryptography project using RSA algorithm.</p>
+        </div>
 
     </div>
+
+</section>
+
+<section class="skills" id="skills">
+
+    <h2>Skills</h2>
+
+    <div class="skills-box">
+        <span>Python</span>
+        <span>Wireshark</span>
+        <span>Networking</span>
+        <span>Machine Learning</span>
+        <span>Linux</span>
+        <span>Cybersecurity</span>
+    </div>
+
+</section>
 
 </body>
 </html>
