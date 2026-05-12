@@ -9,7 +9,24 @@ body{
     background:#050816;
     color:white;
 }
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+    background:#0f172a;
+}
 
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
 .header{
     position:fixed;
     width:100%;
