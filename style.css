@@ -1,23 +1,131 @@
-body {
-    background-color: #0f172a;
-    color: white;
-    font-family: Arial;
-    padding: 40px;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
 }
 
-.container {
-    max-width: 800px;
-    margin: auto;
+body{
+    background:#050816;
+    color:white;
 }
 
-h1 {
-    color: #38bdf8;
+.header{
+    position:fixed;
+    width:100%;
+    padding:20px 10%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#0b1020;
 }
 
-h2 {
-    color: #94a3b8;
+.logo{
+    font-size:28px;
+    color:#9d4edd;
+    text-decoration:none;
+    font-weight:bold;
 }
 
-ul li {
-    margin: 10px 0;
+.navbar a{
+    margin-left:20px;
+    text-decoration:none;
+    color:white;
+}
+
+.home{
+    min-height:100vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:120px 10%;
+}
+
+.home-content{
+    max-width:600px;
+}
+
+.home-content h1{
+    font-size:50px;
+}
+
+.home-content span{
+    color:#9d4edd;
+}
+
+.home-content h3{
+    margin-top:15px;
+    font-size:28px;
+    color:#c77dff;
+}
+
+.home-content p{
+    margin-top:20px;
+    line-height:1.8;
+}
+
+.btn-box{
+    margin-top:30px;
+}
+
+.btn-box a{
+    display:inline-block;
+    padding:12px 28px;
+    margin-right:15px;
+    border-radius:8px;
+    background:#7b2cbf;
+    color:white;
+    text-decoration:none;
+}
+
+.social-icons{
+    margin-top:30px;
+}
+
+.social-icons a{
+    color:white;
+    font-size:28px;
+    margin-right:15px;
+}
+
+.home-image img{
+    width:350px;
+    border-radius:50%;
+    border:5px solid #9d4edd;
+}
+
+.about,
+.projects,
+.skills{
+    padding:100px 10%;
+}
+
+h2{
+    margin-bottom:30px;
+    color:#c77dff;
+}
+
+.project-container{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.project-box{
+    background:#111827;
+    padding:25px;
+    border-radius:15px;
+    width:300px;
+}
+
+.skills-box{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.skills-box span{
+    background:#7b2cbf;
+    padding:10px 20px;
+    border-radius:25px;
 }
